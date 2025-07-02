@@ -130,7 +130,7 @@ public class Bicycle {
         return "BICYCLE" +  '\n' +
                 "brand: " + brand + '\n' +
                 "model: " + model + '\n' +
-                "_____________________________" + '\n'
-                ;
+                "freno delantero: " + frontBrake + '\n' +
+                "_____________________________" + '\n';
     }
 }
