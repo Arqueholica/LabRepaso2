@@ -1,12 +1,13 @@
 package com.repaso.e2;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Bicycle {
     private String brand;
     private String model;
     private int gears;
-    private boolean frontBrake;
+    private boolean frontBrake = true;
 
     Scanner scanner = new Scanner(System.in);
 
@@ -25,6 +26,7 @@ public class Bicycle {
         this.model = model;
         this.gears = gears;
         this.frontBrake = frontBrake;
+
     }
 
     //    GETTERS & SETTERS
@@ -120,6 +122,8 @@ public class Bicycle {
 
 
     }
+
+
 
 
 
